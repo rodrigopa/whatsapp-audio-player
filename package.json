@@ -2,7 +2,8 @@
   "name": "whatsapp-audio-player",
   "private": false,
   "main": "dist/player.js",
-  "version": "0.0.4",
+  "type": "module",
+  "version": "0.0.5",
   "dependencies": {
     "poetic": "^1.7.0",
     "react": "^18.2.0",
