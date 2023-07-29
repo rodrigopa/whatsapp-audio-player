@@ -3,7 +3,7 @@
   "private": false,
   "main": "dist/player.js",
   "type": "module",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "dependencies": {
     "poetic": "^1.7.0",
     "react": "^18.2.0",
