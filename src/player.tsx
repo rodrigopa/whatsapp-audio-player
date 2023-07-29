@@ -1,8 +1,8 @@
 import './player.css';
-import React, {useEffect, useRef, useState} from "react";
-import WaveSurfer from "wavesurfer.js";
-import {Play} from "./play";
-import {Pause} from "./pause";
+import React, { useEffect, useRef, useState } from "react";
+import WaveSurfer from 'wavesurfer.js';
+import { Play } from './play';
+import { Pause } from './pause';
 
 
 export const WhatsappAudioPlayer: React.FC = () => {
