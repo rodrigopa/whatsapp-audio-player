@@ -35,7 +35,7 @@ export const WhatsappAudioPlayer: React.FC<Props> = ({
     });
 
     wavesurfer.once("ready", () => {
-      const shadowRoot = ref.current!.children[0].shadowRoot!;
+      const shadowRoot = ref.current!.children[0]!.shadowRoot!;
       shadowRoot.querySelector(".cursor")!.innerHTML +=
         '<span style="display: block; margin-top: 10px; width: 10px; height: 10px; border-radius: 50%; background-color: #4fc4f7; margin-left: -5px"></span>';
       const style = document.createElement("style");
