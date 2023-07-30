@@ -1,0 +1,66 @@
+.whatsapp-player {
+    position: relative;
+    display: flex;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.whatsapp-player.whatsapp-player__dark {
+  background-color: #333;
+}
+
+.whatsapp-player.whatsapp-player__dark .whatsapp-player__control svg * {
+  fill: #fff;
+}
+
+.whatsapp-player .whatsapp-player__main {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-player .whatsapp-player__control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.whatsapp-player .whatsapp-player__duration {
+    position: absolute;
+    color: #8d9ea6;
+    font-size: 12px;
+    bottom: 3px;
+    left: 65px;
+}
+
+.whatsapp-player.whatsapp-player__dark .whatsapp-player__duration {
+  color: #fff;
+}
+
+.whatsapp-player.whatsapp-player__dark .whatsapp-player__playback-rate {
+  background-color: white;
+  color: #333;
+}
+
+.whatsapp-player .whatsapp-player__playback-rate {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 40px;
+    background-color: #aab1b7;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.whatsapp-player .whatsapp-player__waves-container {
+    width: 175px;
+}
